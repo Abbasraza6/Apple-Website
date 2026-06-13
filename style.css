@@ -1,0 +1,815 @@
+.manrope {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global Nav / Header Bar */
+.global-nav-list {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  position: fixed;
+  background-color: #1d1d20ee;
+  width: 100%;
+  top: -16px;
+  height: 50px;
+  align-items: center;
+  color: #b0b0b0;
+  text-decoration: none;
+  padding-left: 10px;
+}
+
+li {
+  font-size: 1.0em;
+  text-decoration: none;
+}
+
+.fa-brands {
+  font-size: 1.5em;
+}
+
+.nav-link {
+  color: #b0b0b0;
+  text-decoration: none;
+}
+
+/* Intro & Hero Section */
+.hero-logo-container {
+  background-color: black;
+  height: 180px;
+  justify-content: center;
+  display: flex;
+  padding-top: 30px;
+}
+
+.hero-section {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+#hero-main-heading {
+  text-align: center;
+}
+
+#hero-sub-heading {
+  text-align: center;
+  color: #8d8d8d;
+}
+
+/* Buttons System */
+.cta-group {
+  display: flex;
+  gap: 40px;
+}
+
+.btn-primary {
+  text-decoration: none;
+  color: white;
+  background-color: #0071E3;
+  height: 50px;
+  width: 250px;
+  border-radius: 30px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 1.1em;
+}
+
+.btn-secondary {
+  text-decoration: none;
+  color: #0071E3;
+  background-color: black;
+  height: 50px;
+  width: 250px;
+  border-radius: 30px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 1.1em;
+  border: 1px solid #0071E3;
+}
+
+.btn-secondary:hover {
+  text-decoration: none;
+  color: white;
+  background-color: #0071E3;
+  height: 50px;
+  width: 250px;
+  border-radius: 30px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 1.1em;
+}
+
+.hero-banner-media {
+  width: 100%;
+  background-color: black;
+  padding-top: 20px;
+}
+
+/* Full Width Promo Section Features */
+.promo-father-day {
+  background-image: url(father\ day\ img.png);
+  height: 602px;
+  width: 100%;
+  background-size: 100% auto;
+  margin-top: 15px;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.promo-college {
+  height: 620px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(div\ four\ img.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.promo-college-title {
+  font-size: 3.0em;
+  margin-bottom: 0;
+}
+
+.promo-college-subtitle {
+  margin-top: 10px;
+}
+
+.promo-college-btn {
+  text-decoration: none;
+  color: white;
+  background-color: #0071E3;
+  height: 45px;
+  width: 150px;
+  border-radius: 30px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 1.1em;
+}
+
+/* Grid Dashboard Rows */
+.grid-row-container {
+  display: flex;
+}
+
+/* Row 1 Grid Elements */
+.card-iphone {
+  width: 49%;
+  margin: 15px 15px 15px 15px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(div\ five\ one.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+.card-iphone-title {
+  font-size: 2.0em;
+  margin-bottom: 0;
+}
+
+.card-iphone-subtitle {
+  font-size: 1.1em;
+  margin-top: 15px;
+}
+
+.card-iphone-actions {
+  display: flex;
+  gap: 20px;
+}
+
+.card-iphone-btn-shop {
+  text-decoration: none;
+  color: white;
+  background-color: #0071E3;
+  height: 40px;
+  width: 120px;
+  border-radius: 30px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 0.9em;
+}
+
+.card-iphone-btn-learn {
+  text-decoration: none;
+  color: #0071E3;
+  background-color: rgba(0, 0, 0, 0);
+  height: 40px;
+  width: 120px;
+  border-radius: 30px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 0.9em;
+  border: 1px solid #0071E3;
+}
+
+.card-iphone-btn-learn:hover {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #0071E3;
+  height: 40px;
+  width: 120px;
+  border-radius: 30px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 0.9em;
+  border: 1px solid #0071E3;
+}
+
+.card-child-safety {
+  width: 49%;
+  margin: 15px 15px 15px 0px;
+  height: 600px;
+  background-image: url(div\ five\ tow.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card-child-safety-title {
+  color: white;
+  margin-top: 380px;
+  font-size: 2.5em;
+  margin-bottom: 0px;
+}
+
+.card-child-safety-subtitle {
+  color: white;
+  font-size: 1.1em;
+}
+
+.card-child-safety-btn {
+  text-decoration: none;
+  color: white;
+  background-color: #0071E3;
+  height: 40px;
+  width: 120px;
+  border-radius: 30px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 0.9em;
+}
+
+/* Row 2 Grid Elements */
+.card-macbook {
+  width: 49%;
+  margin: 0px 15px 15px 15px;
+  height: 600px;
+  background-image: url(div\ five\ three.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-macbook-title {
+  font-size: 2.5em;
+  margin-bottom: 0px;
+}
+
+.card-macbook-subtitle {
+  font-size: 1.1em;
+  margin-top: 0px;
+}
+
+.card-macbook-actions {
+  display: flex;
+  gap: 20px;
+}
+
+.card-macbook-btn1 {
+  text-decoration: none;
+  color: white;
+  background-color: #0071E3;
+  height: 40px;
+  width: 120px;
+  border-radius: 30px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 0.9em;
+}
+
+.card-macbook-btn2 {
+  text-decoration: none;
+  color: #0071E3;
+  background-color: rgba(0, 0, 0, 0);
+  height: 40px;
+  width: 60px;
+  border-radius: 30px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 0.9em;
+  border: 1px solid #0071E3;
+}
+
+.card-macbook-btn2:hover {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #0071E3;
+  height: 40px;
+  width: 60px;
+  border-radius: 30px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 0.9em;
+  border: 1px solid #0071E3;
+}
+
+.card-ipad-air {
+  width: 49%;
+  margin: 0px 15px 15px 0px;
+  height: 600px;
+  background-image: url(div\ five\ five.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ipad-air-brand {
+  height: 40px;
+  margin-top: 30px;
+}
+
+.card-ipad-subtitle {
+  font-size: 1.1em;
+  margin-top: 10px;
+}
+
+.card-ipad-actions {
+  display: flex;
+  gap: 20px;
+}
+
+.card-ipad-btn1 {
+  text-decoration: none;
+  color: white;
+  background-color: #0071E3;
+  height: 40px;
+  width: 120px;
+  border-radius: 30px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 0.9em;
+}
+
+.card-ipad-btn2 {
+  text-decoration: none;
+  color: #0071E3;
+  background-color: rgba(0, 0, 0, 0);
+  height: 40px;
+  width: 60px;
+  border-radius: 30px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 0.9em;
+  border: 1px solid #0071E3;
+}
+
+.card-ipad-btn2:hover {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #0071E3;
+  height: 40px;
+  width: 60px;
+  border-radius: 30px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 0.9em;
+  border: 1px solid #0071E3;
+}
+
+/* Row 3 Grid Elements */
+.card-apple-card {
+  width: 49%;
+  margin: 0px 15px 15px 15px;
+  height: 600px;
+  background-image: url(dive\ six.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-badge-img {
+  height: 40px;
+  margin-top: 30px;
+}
+
+.card-apple-card-title {
+  font-size: 1.1em;
+  margin-bottom: 0px;
+}
+
+.card-apple-card-subtitle {
+  font-size: 0.9em;
+  margin-top: 5px;
+}
+
+.card-apple-card-btn {
+  text-decoration: none;
+  color: white;
+  background-color: #0071E3;
+  height: 40px;
+  width: 120px;
+  border-radius: 30px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 0.9em;
+}
+
+.card-trade-in {
+  width: 49%;
+  margin: 0px 15px 15px 0px;
+  height: 600px;
+  background-image: url(div\ seven.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.trade-in-brand {
+  height: 40px;
+  margin-top: 30px;
+}
+
+.card-trade-in-title {
+  font-size: 1.1em;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.card-trade-in-btn {
+  text-decoration: none;
+  color: white;
+  background-color: #0071E3;
+  height: 40px;
+  width: 180px;
+  border-radius: 30px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 0.9em;
+  margin-top: 10px;
+}
+
+/* Legal Disclaimers & Disclaimers block */
+.legal-disclaimer-wrapper {
+  justify-content: center;
+  display: flex;
+  padding-left: 15%;
+  padding-right: 15%;
+  background-color: #F5F5F7;
+  color: #6c6c6c;
+  font-size: 0.75em;
+}
+
+.disclaimer-list-top {
+  margin-top: 15px;
+}
+
+.disclaimer-list-sub {
+  padding-left: 28px;
+}
+
+.divider-line-top {
+  width: 95%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Footer Section Grid layout */
+.footer-links-grid {
+  display: flex;
+  padding-left: 15%;
+  padding-right: 15%;
+  justify-content: space-between;
+  background-color: #f5f5f5;
+}
+
+.footer-column {
+  font-size: 0.75em;
+}
+
+.footer-links-ul {
+  list-style: none;
+}
+
+.footer-links-li {
+  margin-top: 7px;
+  color: #6c6c6c;
+}
+
+.footer-column-heading {
+  color: black;
+  margin-top: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Bottom Directory Bar Rules */
+.footer-copyright-p {
+  padding-left: 17.6%;
+  font-size: 0.75em;
+  color: #6c6c6c;
+  background-color: #F5F5F7;
+  margin-top: 0px;
+  margin-bottom: 0;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.divider-wrapper-bottom {
+  padding-left: 17.6%;
+  padding-right: 16%;
+  margin-top: -18px;
+  padding-top: 0px;
+}
+
+.divider-line-bottom {
+  margin-top: -8px;
+  padding-top: 0px;
+  height: 1px;
+}
+
+.footer-legal-link {
+  color: black;
+  margin-left: 20px;
+  text-decoration-line: none;
+}
+
+.footer-region-link {
+  color: black;
+  margin-left: 18%;
+  text-decoration-line: none;
+}
+
+.fa-bars {
+  display: none;
+}
+
+/* RESPONSIVE MEDIA QUERIES */
+
+/* Tablet & Desktop Layout limits */
+@media screen and (max-width: 999px) {
+  .li-hide {
+    display: none;
+  }
+  .global-nav-list {
+    display: flex;
+    list-style: none;
+    justify-content: start;
+    position: fixed;
+    background-color: #1d1d20ee;
+    width: 100%;
+    top: -16px;
+    height: 50px;
+    align-items: center;
+    color: #b0b0b0;
+    text-decoration: none;
+    padding-left: 10px;
+  }
+  .fa-solid {
+    position: absolute;
+    top: 20px;
+    right: 70px;
+  }
+  .material-symbols-outlined {
+    position: absolute;
+    right: 30px;
+    top: 15px;
+  }
+  .fa-bars {
+    position: absolute;
+    top: 20px;
+    right: 100px;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 625px) {
+  .hero-section {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+}
+
+/* Small Screens */
+@media screen and (max-width: 445px) {
+  .hero-section {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .cta-group {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .btn-primary {
+    text-decoration: none;
+    color: white;
+    background-color: #0071E3;
+    height: 50px;
+    width: 250px;
+    border-radius: 30px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 1.1em;
+  }
+  .btn-secondary {
+    text-decoration: none;
+    color: #0071E3;
+    background-color: black;
+    height: 50px;
+    width: 250px;
+    border-radius: 30px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 1.1em;
+    border: 1px solid #0071E3;
+  }
+  .btn-secondary:hover {
+    text-decoration: none;
+    color: white;
+    background-color: #0071E3;
+    height: 50px;
+    width: 250px;
+    border-radius: 30px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 1.1em;
+  }
+  .father-img {
+    display: block;
+    width: 100%;
+  }
+  .promo-father-day {
+    width: 100%;
+    height: 602px;
+    background-image: url("father day img.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+  .app-container-wrapper {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 625px) {
+  .promo-father-day {
+    background-image: url(father\ day\ img.png);
+    width: 140%;
+    background-size: cover;
+    margin-top: 15px;
+    background-repeat: no-repeat;
+    background-position: top;
+    min-height: 602px;
+  }
+}
+
+/* Tablet Structural Stack Fixes */
+@media screen and (max-width: 999px) {
+  .grid-row-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card-iphone, 
+  .card-child-safety, 
+  .card-macbook, 
+  .card-ipad-air, 
+  .card-apple-card, 
+  .card-trade-in {
+    width: 100% !important;
+    margin: 10px 0 !important;
+    box-sizing: border-box;
+    padding: 20px;
+    background-size: cover;
+  }
+  .card-child-safety-title {
+    margin-top: 150px;
+  }
+  .footer-links-grid {
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .footer-links-grid > div {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .footer-links-ul {
+    padding-left: 0;
+  }
+  .footer-copyright-p {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .footer-region-link {
+    margin-left: 0;
+    display: block;
+    margin-top: 10px;
+  }
+}
+
+/* Mobile Screens Adjustments */
+@media screen and (max-width: 625px) {
+  .hero-section {
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .promo-father-day {
+    background-size: cover;
+    width: 100% !important;
+    height: 400px !important;
+  }
+  .promo-college {
+    background-size: cover;
+    height: 500px;
+  }
+  .promo-college-title {
+    font-size: 2.2em;
+    text-align: center;
+  }
+  .legal-disclaimer-wrapper {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
+/* Extra Small Phone Layout Elements */
+@media screen and (max-width: 445px) {
+  #hero-main-heading {
+    font-size: 1.5em;
+  }
+  .cta-group {
+    gap: 15px;
+    width: 100%;
+    align-items: center;
+  }
+  .btn-primary, .btn-secondary {
+    width: 90%;
+  }
+  .footer-legal-link {
+    margin-left: 10px;
+    margin-right: 5px;
+    display: inline-block;
+    line-height: 20px;
+  }
+}
