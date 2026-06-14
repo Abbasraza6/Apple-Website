@@ -754,7 +754,7 @@ li {
 }
 
 /* Mobile Screen */
-@media screen and (max-width: 625px) {
+@media screen and (max-width: 425px) {
   .hero-section {
     padding-left: 5% !important;
     padding-right: 5% !important;
