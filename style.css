@@ -10,6 +10,7 @@ body {
   padding: 0;
 }
 
+/* Global Nav / Header Bar */
 .global-nav-list {
   display: flex;
   list-style: none;
@@ -39,6 +40,7 @@ li {
   text-decoration: none;
 }
 
+/* Intro & Hero Section */
 .hero-logo-container {
   background-color: black;
   height: 180px;
@@ -66,6 +68,7 @@ li {
   color: #8d8d8d;
 }
 
+/* Buttons System */
 .cta-group {
   display: flex;
   gap: 40px;
@@ -117,6 +120,7 @@ li {
   padding-top: 20px;
 }
 
+/* Full Width Promo Section Features */
 .promo-father-day {
   background-image: url(father\ day\ img.png);
   height: 602px;
@@ -161,10 +165,12 @@ li {
   font-size: 1.1em;
 }
 
+/* Grid Dashboard Rows */
 .grid-row-container {
   display: flex;
 }
 
+/* Row 1 Grid Elements */
 .card-iphone {
   width: 49%;
   margin: 15px 15px 15px 15px;
@@ -272,6 +278,7 @@ li {
   font-size: 0.9em;
 }
 
+/* Row 2 Grid Elements */
 .card-macbook {
   width: 49%;
   margin: 0px 15px 15px 15px;
@@ -410,6 +417,7 @@ li {
   border: 1px solid #0071E3;
 }
 
+/* Row 3 Grid Elements */
 .card-apple-card {
   width: 49%;
   margin: 0px 15px 15px 15px;
@@ -489,6 +497,7 @@ li {
   margin-top: 10px;
 }
 
+/* Legal Disclaimers & Disclaimers block */
 .legal-disclaimer-wrapper {
   justify-content: center;
   display: flex;
@@ -513,6 +522,7 @@ li {
   margin-bottom: 20px;
 }
 
+/* Footer Section Grid layout */
 .footer-links-grid {
   display: flex;
   padding-left: 15%;
@@ -540,6 +550,7 @@ li {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+/* Bottom Directory Bar Rules */
 .footer-copyright-p {
   padding-left: 17.6%;
   font-size: 0.75em;
@@ -580,7 +591,9 @@ li {
   display: none;
 }
 
-/* Tablet & Desktop */
+/* RESPONSIVE MEDIA QUERIES */
+
+/* Tablet & Desktop Layout limits */
 @media screen and (max-width: 999px) {
   .li-hide {
     display: none;
@@ -709,6 +722,7 @@ li {
   }
 }
 
+/* Tablet Structural Stack Fixes */
 @media screen and (max-width: 999px) {
   .grid-row-container {
     flex-direction: column;
@@ -752,7 +766,7 @@ li {
   }
 }
 
-/* Mobile Screen */
+/* Mobile Screens Adjustments */
 @media screen and (max-width: 625px) {
   .hero-section {
     padding-left: 5% !important;
@@ -779,7 +793,7 @@ li {
   }
 }
 
-/* Small Phone */
+/* Extra Small Phone Layout Elements */
 @media screen and (max-width: 445px) {
   #hero-main-heading {
     font-size: 1.5em;
