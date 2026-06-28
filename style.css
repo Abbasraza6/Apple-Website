@@ -580,223 +580,235 @@ li {
   display: none;
 }
 
-/* Tablet and Desktop */
+/* ===========================
+   TABLET & SMALL DESKTOP
+=========================== */
 @media screen and (max-width: 999px) {
+
+  /* Navigation */
   .li-hide {
     display: none;
   }
+
   .global-nav-list {
     display: flex;
-    list-style: none;
-    justify-content: start;
-    position: fixed;
-    background-color: #1d1d20ee;
-    width: 100%;
-    top: -16px;
-    height: 50px;
+    justify-content: flex-start;
     align-items: center;
+    list-style: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: #1d1d20ee;
+    padding-left: 15px;
     color: #b0b0b0;
-    text-decoration: none;
-    padding-left: 10px;
+    z-index: 999;
   }
+
+  .fa-bars {
+    display: block;
+    position: absolute;
+    right: 100px;
+    top: 18px;
+  }
+
   .fa-solid {
     position: absolute;
-    top: 20px;
-    right: 70px;
+    right: 65px;
+    top: 18px;
   }
+
   .material-symbols-outlined {
     position: absolute;
-    right: 30px;
-    top: 15px;
+    right: 25px;
+    top: 14px;
   }
-  .fa-bars {
-    position: absolute;
-    top: 20px;
-    right: 100px;
-    display: block;
-  }
-}
 
-@media screen and (max-width: 625px) {
-  .hero-section {
-    background-color: black;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-  }
-}
-
-/* Small Screen */
-@media screen and (max-width: 320px) {
-  .hero-section {
-    background-color: black;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-  }
-  .cta-group {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-  }
-  .btn-primary {
-    text-decoration: none;
-    color: white;
-    background-color: #0071E3;
-    height: 50px;
-    width: 250px;
-    border-radius: 30px;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    font-size: 1.1em;
-  }
-  .btn-secondary {
-    text-decoration: none;
-    color: #0071E3;
-    background-color: black;
-    height: 50px;
-    width: 250px;
-    border-radius: 30px;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    font-size: 1.1em;
-    border: 1px solid #0071E3;
-  }
-  .btn-secondary:hover {
-    text-decoration: none;
-    color: white;
-    background-color: #0071E3;
-    height: 50px;
-    width: 250px;
-    border-radius: 30px;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    font-size: 1.1em;
-  }
-  .father-img {
-    display: block;
-    width: 100%;
-  }
-  .promo-father-day {
-    width: 100%;
-    height: 602px;
-    background-image: url("father day img.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top;
-  }
-  .app-container-wrapper {
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 625px) {
-  .promo-father-day {
-    background-image: url(father\ day\ img.png);
-    width: 140%;
-    background-size: cover;
-    margin-top: 15px;
-    background-repeat: no-repeat;
-    background-position: top;
-    min-height: 602px;
-  }
-}
-
-/* Tablet */
-@media screen and (max-width: 999px) {
+  /* Cards */
   .grid-row-container {
     flex-direction: column;
     align-items: center;
   }
-  .card-iphone, 
-  .card-child-safety, 
-  .card-macbook, 
-  .card-ipad-air, 
-  .card-apple-card, 
+
+  .card-iphone,
+  .card-child-safety,
+  .card-macbook,
+  .card-ipad-air,
+  .card-apple-card,
   .card-trade-in {
-    width: 100% !important;
-    margin: 10px 0 !important;
-    box-sizing: border-box;
+    width: 100%;
+    margin: 10px 0;
     padding: 20px;
+    box-sizing: border-box;
     background-size: cover;
+    background-position: center;
   }
+
   .card-child-safety-title {
     margin-top: 150px;
   }
+
+  /* Footer */
   .footer-links-grid {
     flex-direction: column;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding: 0 10%;
   }
-  .footer-links-grid > div {
+
+  .footer-links-grid>div {
     width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
   }
+
   .footer-links-ul {
     padding-left: 0;
   }
+
   .footer-copyright-p {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding: 0 10%;
   }
+
   .footer-region-link {
-    margin-left: 0;
     display: block;
     margin-top: 10px;
+    margin-left: 0;
   }
 }
 
-/* Mobile Screen */
-@media screen and (max-width: 425px) {
+/* ===========================
+   MOBILE (625px)
+=========================== */
+
+@media screen and (max-width: 625px) {
+
   .hero-section {
-    padding-left: 5% !important;
-    padding-right: 5% !important;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
     box-sizing: border-box;
   }
+
   .promo-father-day {
+    width: 100%;
+    min-height: 600px;
+    background-image: url("father day img.png");
     background-size: cover;
-    width: 100% !important;
-    height: 400px !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 15px;
   }
-  .promo-college {
-    background-size: cover;
-    height: 500px;
+
+  .app-container-wrapper {
+    width: 100%;
   }
-  .promo-college-title {
-    font-size: 2.2em;
-    text-align: center;
-  }
-  .legal-disclaimer-wrapper {
-    padding-left: 5%;
-    padding-right: 5%;
-  }
+
 }
 
-/* Small Phones */
-@media screen and (max-width: 320px) {
-  #hero-main-heading {
-    font-size: 1.5em;
+/* ===========================
+   MOBILE (425px)
+=========================== */
+
+@media screen and (max-width:425px) {
+
+  .hero-section {
+    padding: 25px 15px;
   }
+
+  #hero-main-heading {
+    font-size: 2rem;
+  }
+
+  .promo-father-day {
+    width: 100%;
+    height: 420px;
+  }
+
+  .promo-college {
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .promo-college-title {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .legal-disclaimer-wrapper {
+    padding: 0 20px;
+  }
+
   .cta-group {
+    display: flex;
+    flex-direction: column;
     gap: 15px;
     width: 100%;
     align-items: center;
   }
-  .btn-primary, .btn-secondary {
+
+  .btn-primary,
+  .btn-secondary {
     width: 90%;
+    height: 50px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1rem;
   }
+
+  .btn-primary {
+    background: #0071E3;
+    color: white;
+  }
+
+  .btn-secondary {
+    background: black;
+    color: #0071E3;
+    border: 1px solid #0071E3;
+  }
+
+  .btn-secondary:hover {
+    background: #0071E3;
+    color: white;
+  }
+
+}
+
+/* ===========================
+   SMALL PHONES (320px)
+=========================== */
+
+@media screen and (max-width:320px) {
+
+  #hero-main-heading {
+    font-size: 1.5rem;
+  }
+
+  .promo-father-day {
+    height: 350px;
+  }
+
+  .cta-group {
+    gap: 12px;
+  }
+
+  .btn-primary,
+  .btn-secondary {
+    width: 95%;
+    font-size: .95rem;
+  }
+
   .footer-legal-link {
-    margin-left: 10px;
-    margin-right: 5px;
     display: inline-block;
+    margin: 5px;
     line-height: 20px;
   }
+
 }
